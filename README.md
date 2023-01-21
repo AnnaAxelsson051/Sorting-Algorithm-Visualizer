@@ -7,4 +7,4 @@
 ## Increase project with
 
 > - Other sorting algorithms
-
+> - Visual pathfinding
