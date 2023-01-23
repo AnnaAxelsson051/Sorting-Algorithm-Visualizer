@@ -1,4 +1,6 @@
-# Visual-pathfinding
+# Visual Sorting
+
+[Link to published site](https://annaaxelsson051.github.io/Visual-Sorting-Algorithms/)
 
 ## First project structure
 
