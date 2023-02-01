@@ -4,7 +4,7 @@ let bars_container = document.getElementById("bars_container")
 let minRange = 1;
 let maxRange = 100;
 let numOfBars = 100;
-let heightFactor = 6.5;
+let heightFactor = 6.2;
 let unsorted_array = new Array(numOfBars);
 
 function randomNum(min, max){
