@@ -7,7 +7,7 @@
 body{
     background-color: black;
     background: linear-gradient(to bottom, #a69064, #b9a273, #d1ba8d);
-    background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064, #795c21);
+    background: linear-gradient(to bottom, #a69064,#f1e1bf, #b9a273, #a69064, #795c21);
 }
 
 .container{
@@ -37,7 +37,7 @@ background: linear-gradient(to bottom, #f903cc, #f77ef5, #fcfcfc);
 /*border: 1px solid black;*/
 margin: 0 1px;
 transition: height 0.5s ease-in-out;
-border-radius: 2px;
+/*border-radius: 2px;*/
 }
 
 .buttons_container > button {
@@ -49,15 +49,19 @@ border-radius: 2px;
     color: white;
     font-size: 16px;
     cursor: pointer;
+    margin: 5px;
     transition: 0.2s ease-in-out;
 
   border: 2px solid #fff8eca2;
   /*background-image: linear-gradient(to bottom, #c1b193, #a69064);*/
+  background-color:#359fd8;
   background-color: #20c997;
+  background-color:#a69064;
+ 
  /* z-index: 1;*/
 }
 
 button:hover{
-background-color: rgb(220, 217, 217);
-background-image: linear-gradient(to bottom, #c1b193, #a69064);
+/*background-color: rgb(220, 217, 217);*/
+background-image: linear-gradient(to bottom, #c7b696, #a69064);
 }
