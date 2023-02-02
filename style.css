@@ -39,6 +39,12 @@ margin: 0 1px;
 transition: height 0.4s ease-in-out;
 /*border-radius: 2px;*/
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+
+}
+
+.bar:hover{
+    transform: translateY(-1px);
+    transition:all 0.2s;
 }
 
 .buttons_container > button {
@@ -58,6 +64,7 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
   background-color:#359fd8;
   background-color: #20c997;
   background-color:#a69064;
+  background-image: linear-gradient(to bottom, #c7b696, #a69064,#a69064,#836a39);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
  
  /* z-index: 1;*/
@@ -67,6 +74,7 @@ button:hover{
 /*background-color: rgb(220, 217, 217);*/
 background-image: linear-gradient(to bottom, #c7b696, #a69064,#a69064, #c7b696);
 background-image: linear-gradient(to bottom, #c7b696, #a69064,#a69064,#836a39);
+background-image: linear-gradient(to bottom, #e4d9c4, #a69064,#a69064,#836a39);
 transform: translateY(-1px);
 transition:all 0.2s;
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
