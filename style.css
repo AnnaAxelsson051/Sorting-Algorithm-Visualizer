@@ -220,7 +220,7 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
     /*left: 5%;*/
   }
 
-  .small-btn4{
+  .small-btn5{
     animation-name: moveInBottom;
     animation-duration: 12s;
     animation-timing-function: ease-out;
