@@ -39,6 +39,7 @@ margin: 0 1px;
 transition: height 0.4s ease-in-out;
 /*border-radius: 2px;*/
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
+/*border-radius: 5px;*/
 
 }
 
@@ -75,7 +76,168 @@ button:hover{
 background-image: linear-gradient(to bottom, #c7b696, #a69064,#a69064, #c7b696);
 background-image: linear-gradient(to bottom, #c7b696, #a69064,#a69064,#836a39);
 background-image: linear-gradient(to bottom, #e4d9c4, #a69064,#a69064,#836a39);
+background-image: linear-gradient(to bottom, #d6f7ed, #2ddba7,#20c997,#0fa176);
+
+/*transform: translateY(-1px);
+transition:all 0.2s ;
+box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);*/
 transform: translateY(-1px);
 transition:all 0.2s;
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
+
+
+/*@keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    80% {
+      transform: translatex(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }*/
+  @keyframes moveInBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(100px);
+    }
+    80% {
+        transform: translateY(-10px);
+      }
+    100% {
+      opacity: 1;
+      transform: translate(0);
+    }
+  }
+
+  .info-btn{
+    animation-name: moveInBottom;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    padding-top:2.4rem;
+    padding-bottom: 2.4rem;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(to bottom, #d6f7ed, #6edebb,#20c997,#0fa176,#017f59);
+    /*border-top: 1px solid #d6f7ed;
+    border-bottom: 1px solid #0fa176;
+    border-left:1px solid #6edebb;
+    border-right:1px solid #6edebb;*/
+    border: 1px solid #d6f7ed;
+    font-size: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 87%;
+    top: 69%;
+    /*left: 5%;*/
+  }
+
+  .small-btn1{
+    animation-name: moveInBottom;
+    animation-duration: 15s;
+    animation-timing-function: ease-out;
+    padding: 1rem;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
+    /*border-top: 1px solid #d6f7ed;
+    border-bottom: 1px solid #0fa176;
+    border-left:1px solid #6edebb;
+    border-right:1px solid #6edebb;*/
+    border: 1px solid #d6f7ed;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 92%;
+    top: 63%;
+    /*left: 5%;*/
+  }
+
+  .small-btn2{
+    animation-name: moveInBottom;
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    padding: 2rem;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
+    background-image: linear-gradient(to bottom,#d6f7ed,red);
+    /*border-top: 1px solid #d6f7ed;
+    border-bottom: 1px solid #0fa176;
+    border-left:1px solid #6edebb;
+    border-right:1px solid #6edebb;*/
+    border: 1px solid #d6f7ed;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 84%;
+    top: 64%;
+    /*left: 5%;*/
+  }
+  .small-btn3{
+    animation-name: moveInBottom;
+    animation-duration: 10s;
+    animation-timing-function: ease-out;
+    padding: 0.6rem;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
+    background-image: linear-gradient(to bottom,#d6f7ed,black );
+    /*border-top: 1px solid #d6f7ed;
+    border-bottom: 1px solid #0fa176;
+    border-left:1px solid #6edebb;
+    border-right:1px solid #6edebb;*/
+    border: 1px solid #d6f7ed;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 89%;
+    top: 60%;
+    /*left: 5%;*/
+  }
+  .small-btn4{
+    animation-name: moveInBottom;
+    animation-duration: 12s;
+    animation-timing-function: ease-out;
+    padding: 0.4rem;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
+
+    background-image: linear-gradient(to bottom,#d6f7ed, yellow);
+        /*border-top: 1px solid #d6f7ed;
+    border-bottom: 1px solid #0fa176;
+    border-left:1px solid #6edebb;
+    border-right:1px solid #6edebb;*/
+    border: 1px solid #d6f7ed;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 87%;
+    top: 58%;
+    /*left: 5%;*/
+  }
+
+  .small-btn4{
+    animation-name: moveInBottom;
+    animation-duration: 12s;
+    animation-timing-function: ease-out;
+    padding: 0.6rem;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
+
+    background-image: linear-gradient(to bottom,#d6f7ed, yellow);
+        /*border-top: 1px solid #d6f7ed;
+    border-bottom: 1px solid #0fa176;
+    border-left:1px solid #6edebb;
+    border-right:1px solid #6edebb;*/
+    border: 1px solid #d6f7ed;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    right: 89%;
+    top: 61%;
+    /*left: 5%;*/
+  }
