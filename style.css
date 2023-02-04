@@ -292,7 +292,7 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
     animation-name: moveInBottom;
     animation-duration: 23s;
     animation-timing-function: ease-out;
-    padding: 0.3rem;
+    padding: 0.5rem;
     border-radius: 50%;
     color: white;
     background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
@@ -318,14 +318,13 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
     animation-name: moveInBottom;
     animation-duration: 14s;
     animation-timing-function: ease-out;
-    padding: 1rem;
+    padding: 1.1rem;
     border-radius: 50%;
     color: white;
     background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
     background-image: linear-gradient(to bottom,#d6f7ed, rgb(255, 0, 242));
     background-image: linear-gradient(to bottom,#d6f7ed, rgb(255, 34, 0));
     background-image: linear-gradient(to bottom,#d6f2f7,rgb(0, 162, 255), #1f8afc, #d6f2f7);
-    
     /*border-top: 1px solid #d6f7ed;
     border-bottom: 1px solid #0fa176;
     border-left:1px solid #6edebb;
@@ -342,16 +341,15 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 
     .small-btn9{
         animation-name: moveInBottom;
-        animation-duration: 17s;
+        animation-duration: 19s;
         animation-timing-function: ease-out;
-        padding: 0.5rem;
+        padding: 0.7rem;
         border-radius: 50%;
         color: white;
         background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
         background-image: linear-gradient(to bottom,#d6f7ed, rgb(255, 0, 242));
         background-image: linear-gradient(to bottom,#d6f7ed, rgb(242, 255, 0));
         background-image: linear-gradient(to bottom,#d6f2f7,rgb(0, 162, 255), #1f8afc, #d6f2f7);
-        
         /*border-top: 1px solid #d6f7ed;
         border-bottom: 1px solid #0fa176;
         border-left:1px solid #6edebb;
@@ -364,3 +362,24 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
         /*left: 5%;*/
         border:none;
         opacity: .7;}
+
+        .small-btn10{
+            animation-name: moveInBottom;
+            animation-duration: 28s;
+            animation-timing-function: ease-out;
+            padding: 0.3rem;
+            border-radius: 50%;
+            color: white;
+            background-image: linear-gradient(to bottom,#d6f7ed, #6edebb,#20c997,#0fa176,#017f59, #d6f7ed);
+            background-image: linear-gradient(to bottom,#d6f7ed, rgb(255, 0, 242));
+            background-image: linear-gradient(to bottom,#d6f7ed, rgb(242, 255, 0));
+            background-image: linear-gradient(to bottom,#d6f2f7,rgb(0, 162, 255), #1f8afc, #d6f2f7);
+            border: 1px solid #d6f7ed;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+            position: absolute;
+            right: 93%;
+            top: 92%;
+            /*left: 5%;*/
+            border:none;
+            opacity: .7;
+        }
