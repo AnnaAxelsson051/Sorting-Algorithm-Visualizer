@@ -28,7 +28,8 @@ padding: 20px 0px;
 }
 
 .bar{
-width: 10px;
+width: 9px;
+/*4px*/
 /*background-color: aqua;*/
 background: linear-gradient(to bottom, #f1e1bf, #b9a273, #a69064);
 background: linear-gradient(to bottom, #f651b4, #b9a273, #51d8ea);
@@ -85,7 +86,7 @@ background-image: linear-gradient(to bottom, #d6f7ed, #2ddba7,#20c997,#0fa176);
 transition:all 0.2s ;
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);*/
 transform: translateY(-1px);
-transition:all 0.2s;
+transition:all 0.4s;
 box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
 }
 
@@ -383,3 +384,8 @@ box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5);
             border:none;
             opacity: .7;
         }
+
+        /*.bouble:hover{
+            background-image: linear-gradient(to bottom,#d6f2f7,rgb(44, 175, 250), #56a7fd, #d6f2f7);
+transition: all 3s;
+        }*/
