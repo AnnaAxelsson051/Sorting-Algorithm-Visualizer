@@ -3,7 +3,7 @@ let sort_btn = document.getElementById("sort_btn");
 let bars_container = document.getElementById("bars_container")
 let minRange = 1;
 let maxRange = 100;
-let numOfBars = 80;
+let numOfBars = 100;
 let heightFactor = 6.2;
 let unsorted_array = new Array(numOfBars);
 
