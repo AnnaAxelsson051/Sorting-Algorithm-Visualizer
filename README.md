@@ -11,6 +11,10 @@
 
 > Algoritmen innebär att det område av en lista som skall sorteras gås igenom upprepade gånger och parvisa jämförelser görs av intilliggande element. Om elementen är i fel ordning kastas elementens ordning om.
 
-![alt text for screen readers](Bubble-sort3.png "Bubble sort")
+Bubble-sort1.png
+<br>
+Bubble-sort2.png
+<br>
+Bubble-sort3.png
 
 
