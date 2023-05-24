@@ -2,15 +2,18 @@
 
 [Link to published site](https://annaaxelsson051.github.io/Visual-Sorting-Algorithms/)
 
-## Projektbeskrivning
+## Description
 
-> Det här är en applikation som ger en visuell överblick över hur sorteringsalgoritmen Bubble sort utför sin operation vid sortering. Till projektet har JavaScript, Html och Css (animeringar) använts.   
+This application provides a visual illustration of how the sorting algorithm Bubble sort performs its operations. Bubble sort is a sorting algorithm that repeatedly steps through the input list element by element, comparing the current element with the one after it, swapping their values if needed. This is repeated until no swaps had to be performed during a pass, meaning that the list has become fully sorted. The algorithm is named for the way the larger elements "bubble" up to the top of the list. 
 
-### Bubbelsortering
+## Technologies used
 
-> Algoritmen innebär att det område av en lista som skall sorteras gås igenom upprepade gånger och parvisa jämförelser görs av intilliggande element. Om elementen är i fel ordning kastas elementens ordning om.
+- JavaScript
+- HTML
+- CSS
+- Animations
 
-<br>
+---
 
  ![Bubble-sort1](https://user-images.githubusercontent.com/103879144/225031921-2ba3a755-58be-4615-84a2-90597e5c49c6.png)
 
