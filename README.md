@@ -8,7 +8,7 @@ This application provides a visual illustration of how the sorting algorithm Bub
 
 ## Technologies used
 
-- JavaScript
+- Vanilla JavaScript
 - HTML
 - CSS
 - Animations
