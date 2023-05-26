@@ -1,4 +1,4 @@
-# Visual Sorting Algorithm
+# Sorting Algorithm Visualizer
 
 [Link to published site](https://annaaxelsson051.github.io/Visual-Sorting-Algorithms/)
 
