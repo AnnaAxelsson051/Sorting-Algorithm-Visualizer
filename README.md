@@ -1,6 +1,6 @@
 # Sorting Algorithm Visualizer
 
-[Link to published site](https://annaaxelsson051.github.io/Visual-Sorting-Algorithms/)
+[Link to published site](https://annaaxelsson051.github.io/Sorting-Algorithm-Visualizer/)
 
 ## Description
 
